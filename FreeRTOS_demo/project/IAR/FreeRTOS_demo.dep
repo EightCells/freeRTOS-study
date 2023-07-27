@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>5</fileVersion>
+    <fileChecksum>220005815</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\..\freeRTOS\port\MemMang\heap_4.c</file>
+            <file>$PROJ_DIR$\..\..\freeRTOS\src\stream_buffer.c</file>
+            <file>$PROJ_DIR$\..\..\freeRTOS\port\IAR\ARM_CM4F\port.c</file>
+            <file>$PROJ_DIR$\..\..\freeRTOS\src\timers.c</file>
+            <file>$PROJ_DIR$\..\..\freeRTOS\src\list.c</file>
+            <file>$PROJ_DIR$\..\..\freeRTOS\port\IAR\ARM_CM4F\portasm.s</file>
+            <file>$PROJ_DIR$\..\..\freeRTOS\src\event_groups.c</file>
+            <file>$PROJ_DIR$\..\..\freeRTOS\src\tasks.c</file>
+            <file>$PROJ_DIR$\..\..\freeRTOS\src\croutine.c</file>
+            <file>$PROJ_DIR$\..\..\freeRTOS\src\queue.c</file>
+            <file>$PROJ_DIR$\..\..\core\core_cm4.h</file>
+            <file>$PROJ_DIR$\..\..\core\core_cm4_simd.h</file>
+            <file>$PROJ_DIR$\..\..\core\core_cmFunc.h</file>
+            <file>$PROJ_DIR$\..\..\core\core_cmInstr.h</file>
+            <file>$PROJ_DIR$\..\..\core\startup_gd32f30x_hd.s</file>
+            <file>$PROJ_DIR$\..\..\user\FreeRTOSConfig.h</file>
+            <file>$PROJ_DIR$\..\..\user\main.c</file>
+            <file>$PROJ_DIR$\..\..\hardware\led\led.c</file>
+            <file>$PROJ_DIR$\..\..\hardware\time\timer.c</file>
+        </outputs>
+        <forcedrebuild>
+            <name>[REBUILD_ALL]</name>
+        </forcedrebuild>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>
